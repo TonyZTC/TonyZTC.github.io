@@ -24,18 +24,18 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
 }
 .offcanvas #page:after {
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
   position: absolute;
   top: 0;
   right: 0;
@@ -48,9 +48,9 @@ body {
 
 a {
   color: #50CB86;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 a:hover, a:active, a:focus {
   color: #50CB86;
@@ -129,9 +129,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 30px 10px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: white;
@@ -205,9 +205,9 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
@@ -281,9 +281,9 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .fh5co-video:hover .overlay {
   background: rgba(0, 0, 0, 0.7);
@@ -496,7 +496,8 @@ form label {
   display: table-cell !important;
   vertical-align: middle;
 }
-#fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
+#fh5co-header .display-tc h1, 
+#fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h1,
@@ -648,9 +649,9 @@ form label {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 
 #fh5co-features,
@@ -946,9 +947,9 @@ form label {
   height: 350px;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 @media screen and (max-width: 768px) {
   .work-grid .desc {
@@ -1086,9 +1087,9 @@ form label {
   color: #fff;
   font-size: 16px !important;
   width: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 #fh5co-started .form-control::-webkit-input-placeholder {
   color: #fff;
@@ -1187,9 +1188,9 @@ form label {
   -ms-transform: translateX(270px);
   -o-transform: translateX(270px);
   transform: translateX(270px);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .offcanvas #fh5co-offcanvas {
   -moz-transform: translateX(0px);
@@ -1237,9 +1238,9 @@ form label {
   content: "\e921";
   font-size: 20px;
   color: rgba(255, 255, 255, 0.2);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown.active a:after {
   -webkit-transform: rotate(-180deg);
@@ -1264,9 +1265,9 @@ form label {
   z-index: 999;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .gototop.active {
   opacity: 1;
@@ -1317,7 +1318,7 @@ form label {
   text-transform: uppercase;
   text-indent: -55px;
   background: #252525;
-  transition: all .2s ease-out;
+  transition: all 0s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
@@ -1326,7 +1327,7 @@ form label {
   background: #252525;
   position: absolute;
   left: 0;
-  transition: all .2s ease-out;
+  transition: all 0s ease-out;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #fff;
@@ -1404,9 +1405,9 @@ form label {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   border-radius: 30px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
   padding: 8px 20px;
 }
 .btn.btn-md {
@@ -1519,9 +1520,9 @@ form label {
   background: none;
   border: 2px solid gray;
   font-size: 16px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
   box-shadow: none;
@@ -1529,9 +1530,9 @@ form label {
 
 .btn.with-arrow {
   position: relative;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .btn.with-arrow i {
   visibility: hidden;
@@ -1540,9 +1541,9 @@ form label {
   right: 0px;
   top: 50%;
   margin-top: -8px;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 .btn.with-arrow:hover {
   padding-right: 50px;
